@@ -9,8 +9,16 @@ dependencies = [
     "jupyter>=1.1.1",
     "minsearch>=0.1.1",
     "ollama>=0.6.2",
+    "onnxruntime>=1.27.0",
     "openai>=2.43.0",
     "python-dotenv>=1.2.2",
     "requests>=2.34.2",
+    "sqlitesearch>=0.1.2",
+    "tokenizers>=0.23.1",
     "toyaikit>=0.0.11",
+]
+
+[dependency-groups]
+dev = [
+    "huggingface-hub>=1.21.0",
 ]
